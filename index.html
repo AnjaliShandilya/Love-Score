@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LoveScore</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="message">
+      <h1 id="score">💖 Love Score Checker 💖</h1>
+      <p id="definition">Check how much love exists between two people!</p>
+
+      <div class="input-group">
+        <input type="text" id="yourName" placeholder="Your name" />
+        <input type="text" id="partnerName" placeholder="Their name" />
+      </div>
+
+      <p id="msg">Are you ready?</p>
+
+      <div id="button">
+        <button onclick="checkLove()">Check Score</button>
+      </div>
+
+      <p id="result"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
